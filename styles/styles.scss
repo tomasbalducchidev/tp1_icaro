@@ -1,0 +1,17 @@
+@use "partials/components/" as c;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//para que son estos resets?
+
+html {
+  font-size: 62.5%; //esto lo que hace es que podamos usar los rems. O sea esto agarra todos los tamaños y los baja a 62.5 entonces la relacion de rem a pixel que por defecto 1 rem es igual a 16px. Haciendo este cambio bajamos esa relacion a 1 rem igual a 10 px.
+}
+body {
+  min-height: 100vh;
+}
