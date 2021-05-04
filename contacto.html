@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaimico Celulares</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header__container">
+      <div class="header container">
+        <a href="#">
+          <h2 class="header__logo">Jaimico Celulares</h2>
+        </a>
+        <nav class="header__nav">
+          <a href="./index.html" class="header__nav--link">Home</a>
+          <a href="./nosotros.html" class="header__nav--link">Nosotros</a>
+          <a href="./contacto.html" class="header__nav--link">Contacto</a>
+          <a href="./carrito.html" class="header__nav--link">Carrito</a>
+        </nav>
+      </div>
+    </header>
+    <!-- fin header -->
+
+    <section class="contacto__container">
+      <div class="contacto container">
+        <form id="formContacto" class="hidden" action="#">
+          <label for="fname">Nombre:</label><br />
+          <input type="text" id="fname" name="fname" value="Nombre" /><br />
+          <label for="lname">Apellido:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value="Apellido"
+          /><br /><br />
+          <input class="boton" type="submit" value="Enviar" />
+        </form>
+        <button id="botonMuestra">Quiero recibir ofertas!</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer__container">
+      <div class="footer container">
+        <div class="footer__info">
+          <div class="footer__info--title">
+            <h5>Te esperamos</h5>
+          </div>
+          <div class="footer__info--text">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+              accusamus quaerat perferendis, dolore in numquam, quam quod sit ex
+              soluta consectetur! Necessitatibus in est quidem aspernatur sequi
+              vitae ducimus ipsum commodi, enim, dolor labore velit consequatur
+              dicta harum nesciunt nobis voluptatem ad deserunt. Accusantium
+              iusto ad ipsam ab a ex.
+            </p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <a class="footer__links--item" href="#">Fb</a>
+          <a class="footer__links--item" href="#">Tw</a>
+          <a class="footer__links--item" href="#">Ig</a>
+        </div>
+      </div>
+    </footer>
+    <!-- fin footer -->
+
+    <script src="./scripts/contacto.js"></script>
+  </body>
+</html>
