@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jaimico Celulares</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <!--css rule:     font-family: 'Itim', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!--css rule:     font-family: 'Raleway', sans-serif;-->
   </head>
   <body>
     <!-- header -->
     <header class="header__container">
       <div class="header container">
         <a href="#">
-          <h2 class="header__logo">Jaimico Celulares</h2>
+          <h1 class="header__logo">Jaimico Celulares</h1>
         </a>
         <nav class="header__nav">
           <a href="./index.html" class="header__nav--link">Home</a>
@@ -143,9 +155,16 @@
           </div>
         </div>
       </section>
-      <div id="goTopBtn" class="go-top">
+      <img
+        src="./assets/img/up-arrow.png"
+        alt="TOP"
+        id="goTopBtn"
+        class="go-top"
+      />
+      <!--sin querer me quedó bien, la imagen queda dentro del fondo de color que habiamos hecho anteriormente-->
+      <!-- <div id="goTopBtn" class="go-top">
         <p>TOP</p>
-      </div>
+      </div> -->
     </main>
     <!-- fin main -->
 
@@ -167,10 +186,37 @@
             </p>
           </div>
         </div>
-        <div class="footer__links">
+        <!-- <div class="footer__links">
           <a class="footer__links--item" href="#">Fb</a>
           <a class="footer__links--item" href="#">Tw</a>
           <a class="footer__links--item" href="#">Ig</a>
+        </div> -->
+        <div class="footer__links">
+          <!--el problema es que ya no son links-->
+          <img
+            class="footer__links--item"
+            id="instagram"
+            width="50px"
+            height="50px"
+            src="./assets/img/instagram.png"
+            alt="Logo instagram"
+          />
+          <img
+            class="footer__links--item"
+            id="facebook"
+            width="50px"
+            height="50px"
+            src="./assets/img/facebaook.png"
+            alt="Logo facebook"
+          />
+          <img
+            class="footer__links--item"
+            id="twitter"
+            width="50px"
+            height="50px"
+            src="./assets/img/gorjrewqeeo.png"
+            alt="Logo twitter"
+          />
         </div>
       </div>
     </footer>

@@ -30,3 +30,4 @@ window.onscroll = () => {
 oferta.addEventListener("click", () => {
   window.alert("Samsung Galaxy S21: $80.000,00");
 });
+//igual no está bueno que la info esté en el JS y deberia tener una imagen y un boton que te lleve a ver mas info del producto.
