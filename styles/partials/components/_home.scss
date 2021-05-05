@@ -17,6 +17,7 @@ main {
   background-position: -30rem 0;
   background-repeat: no-repeat;
   //background-size: cover;
+  // justify-content: space-between;
 
   //background-position: right;
 
@@ -27,6 +28,7 @@ main {
     //background-color: red; (era solo para ver la caja)
     //margin: 0;
     margin-left: 10rem;
+    // justify-content: space-between;
 
     &--title {
       font-size: 7rem;
@@ -34,6 +36,18 @@ main {
 
     &--description {
       font-size: 2.2rem;
+    }
+
+    &--oferta {
+      font-size: 5rem;
+      margin-left: 40rem; //esta bien hacer esto asi? Me suena que lo estoy forzando.
+      padding: 1rem;
+      // z-index: 999;
+      background-color: $background-color-2;
+      border-radius: 1rem;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

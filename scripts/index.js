@@ -2,6 +2,7 @@ const goTopBtn = document.getElementById("goTopBtn");
 
 const testimoniales = document.getElementById("testimoniales");
 const info = document.getElementById("info");
+const oferta = document.getElementById("oferta");
 
 goTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -25,3 +26,7 @@ window.onscroll = () => {
   )
     info.classList.add("effect2");
 };
+
+oferta.addEventListener("click", () => {
+  window.alert("Samsung Galaxy S21: $80.000,00");
+});

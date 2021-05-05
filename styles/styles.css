@@ -28,6 +28,16 @@ $black: #111;
 .hero__content--description {
   font-size: 2.2rem;
 }
+.hero__content--oferta {
+  font-size: 5rem;
+  margin-left: 40rem;
+  padding: 1rem;
+  background-color: #224870;
+  border-radius: 1rem;
+}
+.hero__content--oferta:hover {
+  cursor: pointer;
+}
 
 .testimoniales__container {
   padding: 10rem 0;
