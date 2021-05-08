@@ -38,6 +38,46 @@ $black: #111;
   cursor: pointer;
 }
 
+.productos__container {
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5rem;
+}
+
+.productos {
+  display: flex;
+  row-gap: 10rem;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+}
+.productos__subtitulo {
+  font-size: 5rem;
+}
+.productos .producto {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  padding: 2rem 0;
+  border-radius: 1rem;
+}
+.productos .producto__imagen--img {
+  border-radius: 1rem;
+}
+.productos .producto:hover {
+  transform: scale(1.05);
+  background-color: rgba(34, 72, 112, 0.5);
+}
+.productos .producto__mensaje {
+  text-align: justify;
+  padding: 0 3rem;
+}
+
+/*
 .testimoniales__container {
   padding: 10rem 0;
   display: flex;
@@ -49,32 +89,42 @@ $black: #111;
 .testimoniales {
   display: flex;
   flex-wrap: wrap;
+  //justify-content: space-between;
   row-gap: 10rem;
-  -moz-column-gap: 5%;
-       column-gap: 5%;
-}
-.testimoniales__subtitulo {
-  font-size: 5rem;
-}
-.testimoniales .testimonio {
-  flex-basis: 30%;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-  padding: 2rem 0;
-  border-radius: 1rem;
-}
-.testimoniales .testimonio:hover {
-  transform: scale(1.05);
-  background-color: rgba(34, 72, 112, 0.5);
-}
-.testimoniales .testimonio__mensaje {
-  text-align: justify;
-  padding: 0 3rem;
-}
+  column-gap: 5%;
 
+  &__subtitulo {
+    font-size: 5rem;
+  }
+
+  .testimonio {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    padding: 2rem 0;
+    border-radius: 1rem;
+
+    &:hover {
+      transform: scale(1.05);
+      background-color: rgba($background-color-2, 0.5);
+    }
+
+    // &__titulo {
+    // }
+
+    // &__nombre {
+    // }
+
+    &__mensaje {
+      text-align: justify;
+      padding: 0 3rem;
+    }
+  }
+} 
+*/
 .info {
   padding: 10rem 0;
   display: flex;

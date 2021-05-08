@@ -1,6 +1,6 @@
 const goTopBtn = document.getElementById("goTopBtn");
 
-const testimoniales = document.getElementById("testimoniales");
+const productos = document.getElementById("productos");
 const info = document.getElementById("info");
 const oferta = document.getElementById("oferta");
 
@@ -18,11 +18,11 @@ window.onscroll = () => {
     document.documentElement.scrollTop >
     document.documentElement.clientHeight * 0.5
   ) {
-    testimoniales.classList.add("effect2");
+    productos.classList.add("effect2");
   }
   if (
     document.documentElement.scrollTop >
-    document.documentElement.clientHeight * 1.5
+    document.documentElement.clientHeight * 1.1
   )
     info.classList.add("effect2");
 };
