@@ -12,9 +12,8 @@ $black: #111;
   justify-content: flex-start;
   align-items: center;
   height: calc(100vh - 7.4rem);
-  background-image: url(../../../assets/img/tech_hero.jpg);
-  background-position: -30rem 0;
-  background-repeat: no-repeat;
+  background-image: url(../../../assets/img/fondoo.jpg);
+  background-size: cover;
 }
 .hero__content {
   display: flex;
@@ -210,6 +209,35 @@ $black: #111;
   align-items: center;
 }
 .nosotros__right--text {
+  width: 80%;
+  font-size: 2rem;
+  line-height: 2;
+  color: #224870;
+}
+
+.nosotrosb {
+  padding: 10rem 0;
+  display: flex;
+  gap: 5rem;
+}
+.nosotrosb__container {
+  background-color: #111;
+  color: #eee;
+}
+.nosotrosb__left--img {
+  background-image: url(../../../assets/img/info_cel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50rem;
+  height: 40rem;
+  border-radius: 100px 0 100px 0;
+}
+.nosotrosb__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nosotrosb__right--text {
   width: 80%;
   font-size: 2rem;
   line-height: 2;

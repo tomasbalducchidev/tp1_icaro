@@ -36,3 +36,42 @@
     }
   }
 }
+
+//----------------------------------------------------------------
+//Creo que estoy repitiendo demasiado codigo aplicando el "modo oscuro" de estar forma.
+.nosotrosb {
+  &__container {
+    background-color: $black;
+    color: $white;
+  }
+
+  padding: 10rem 0;
+
+  display: flex;
+
+  gap: 5rem;
+
+  &__left {
+    &--img {
+      background-image: url(../../../assets/img/info_cel.jpg);
+      //background-position: -20rem 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50rem;
+      height: 40rem;
+      border-radius: 100px 0 100px 0;
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--text {
+      width: 80%;
+      font-size: 2rem;
+      line-height: 2;
+      color: $background-color-2;
+    }
+  }
+}
