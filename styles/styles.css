@@ -253,6 +253,9 @@ $black: #111;
   height: 40rem;
   border-radius: 100px 0 100px 0;
 }
+.nosotros__left--img:hover {
+  cursor: pointer;
+}
 .nosotros__right {
   display: flex;
   justify-content: center;
@@ -281,6 +284,9 @@ $black: #111;
   width: 50rem;
   height: 40rem;
   border-radius: 100px 0 100px 0;
+}
+.nosotrosb__left--img:hover {
+  cursor: pointer;
 }
 .nosotrosb__right {
   display: flex;
